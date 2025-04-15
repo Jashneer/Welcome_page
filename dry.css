@@ -101,7 +101,7 @@ section {
 footer {
     text-align: center; /* Center the footer content */
     padding: 10px 20px;
-    background: #cc66ff; /* Solid purple background for footer */
+    background: #faebd7; /* Solid purple background for footer */
     color: #ffe6f2; /* Light pink text */
     font-size: 0.9rem;
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1); /* Shadow at the top */
