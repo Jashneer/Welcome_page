@@ -9,9 +9,16 @@ body, html {
     display: flex;
     justify-content: space-between;
 }
+
+.navbar li {
+    margin: 0 15px; /* Adds space between items */
+}
+
 .container {
-    background-image:url("c:\Users\hp\OneDrive\Pictures\Screenshots 1\Screenshot 2024-09-28 160052.png");
-    height: 100px;
+    background-image:url("background_image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
     width: 100%;
     padding: 10px;
     margin: 10px;
