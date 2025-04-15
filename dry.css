@@ -1,22 +1,17 @@
-body {
-    background-image: url("../../../../../Pictures/Screenshots 1/Screenshot 2024-09-28 155341.png");
-    background-size: cover;
-
-}
-/* General Page Styling */ 
+/* General Page Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #ffe6f2, #ffccdd); /* Light pink gradient background */
-    color: #660033; /* Dark pink for text */
+    background: linear-gradient(to right, #f2e6ff, #e6ccff); /* Light purple gradient background */
+    color: #330066; /* Dark purple for text */
     text-align: center; /* Align all body content to the center */
 }
 
 /* Navbar Styling */
 .navbar {
-    background: linear-gradient(to right, #ff66b2, #ff99cc); /* Pink gradient for the navbar */
-    padding: 12px 21px;
+    background: linear-gradient(to right, #cc66ff, #ff99cc); /* Purple-pink gradient for the navbar */
+    padding: 10px 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
 }
 
@@ -38,7 +33,7 @@ body {
     color: #ffe6f2; /* Light pink text color for links */
     font-weight: bold;
     font-size: 1rem;
-    padding: 8px 12px;
+    padding: 7px 12px;
     border-radius: 5px; /* Rounded corners for links */
     background: #ffb3d9; /* Soft pink button effect */
     transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth hover and click effects */
@@ -53,9 +48,9 @@ body {
 header {
     text-align: center; /* Center-align the header */
     padding: 20px 10px;
-    color: #660033; /* Dark pink text */
-    background: linear-gradient(to right, #f5a0ca, #f885bf); /* Gradient background */
-    border-bottom: 3px solid #ff66b2; /* Border for separation */
+    color: #330066; /* Dark purple text */
+    background: linear-gradient(to right, #ff99cc, #ffb3d9); /* Gradient background */
+    border-bottom: 3px solid #cc66ff; /* Border for separation */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
@@ -66,8 +61,8 @@ header h1 {
 
 /* Section Styling */
 section {
-    padding: 20px;
-    background: linear-gradient(to right, #ffcce0, #ffe6f2); /* Gradient background for the section */
+    padding: 30px;
+    background: linear-gradient(to right, #f2e6ff, #ffe6f2); /* Light purple-to-pink gradient background */
     border-radius: 15px; /* Rounded corners */
     margin: 20px auto;
     width: 90%;
@@ -77,8 +72,8 @@ section {
 
 /* Product Div Styling */
 .product {
-    background: linear-gradient(to right, #ff99cc, #ffccdd); /* Gradient background for product cards */
-    border: 3px solid #ffe4c4; /* Bright pink border */
+    background: linear-gradient(to right, #cc99ff, #e6ccff); /* Soft purple gradient for product cards */
+    border: 3px solid #cc66ff; /* Purple border */
     border-radius: 15px;
     padding: 20px;
     margin-bottom: 20px;
@@ -91,41 +86,31 @@ section {
 }
 
 .product h2 {
-    color: #ff0055; /* Bold vibrant pink for product titles */
+    color: #6600cc; /* Bold vibrant purple for product titles */
     margin: 0 0 10px;
     font-size: 1.8rem;
 }
 
 .product p {
-    color: #660033; /* Dark pink for product descriptions */
+    color: #330066; /* Dark purple for product descriptions */
     font-size: 1.2rem;
     margin: 0;
 }
-.container{
-
-    border:10px #ff99cc;
-    background-size: cover;
-}
-div img {
-    background-size: cover;
-    margin-left: 50px;
-}
-
 
 /* Footer Styling (Optional) */
 footer {
     text-align: center; /* Center the footer content */
     padding: 10px 20px;
-    background: #ff66b2; /* Solid pink background for footer */
+    background: #6600cc; /*  purple background for footer */
     color: #ffe6f2; /* Light pink text */
     font-size: 0.9rem;
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1); /* Shadow at the top */
 }
 
-.container img{
+.container img {
     width:250%;
-    max-width: 300px; /* Limit the image width */
-    margin-left: -30px; /* Shift the image to the left */
+    max-width: 500px; /* Limit the image width */
+    margin-left: -50px; /* Shift the image to the left */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect for the image */
-    border-radius: 8px; /* Rounded corners for the image */
+    border-radius: 8px; /* Rounded corners for the image */
 }
