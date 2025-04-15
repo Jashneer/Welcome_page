@@ -33,7 +33,7 @@ body {
     color: #ffe6f2; /* Light pink text color for links */
     font-weight: bold;
     font-size: 1rem;
-    padding: 8px 12px;
+    padding: 7px 12px;
     border-radius: 5px; /* Rounded corners for links */
     background: #ffb3d9; /* Soft pink button effect */
     transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth hover and click effects */
