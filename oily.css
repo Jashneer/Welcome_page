@@ -78,7 +78,7 @@ section {
 /* Product Div Styling */
 .product {
     background: linear-gradient(to right, #ff99cc, #ffccdd); /* Gradient background for product cards */
-    border: 3px solid #ff66b2; /* Bright pink border */
+    border: 3px solid #ffe4c4; /* Bright pink border */
     border-radius: 15px;
     padding: 20px;
     margin-bottom: 20px;
