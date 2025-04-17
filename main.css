@@ -64,12 +64,12 @@ body, html {
 }
 
 .logo img {
-    max-width:150px;
+    max-width:160px;
     margin-left: 10px;
     height: 115px;
     width: 115px;
     border-radius:50%;
-    border: 2px solid pink;
+    border: 2.5px solid pink;
     position: static;
 }
 
