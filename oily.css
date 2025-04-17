@@ -17,7 +17,7 @@ body {
 .navbar {
     background: linear-gradient(to right, #ff66b2, #ff99cc); /* Pink gradient for the navbar */
     padding: 12px 21px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15); /* Shadow for depth */
 }
 
 .navbar ul {
