@@ -1,8 +1,8 @@
 /* General Page Styling */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 1px;
+    padding: 1px;
     background: linear-gradient(to right, #ffe6f2, #ffccdd); /* Light pink gradient background */
     color: #660033; /* Dark pink for text */
     text-align: center; /* Align all body content to the center */
