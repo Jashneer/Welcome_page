@@ -15,11 +15,11 @@ body, html {
 }
 
 .container {
-    background-image:url("background_image.jpg");
+    background-image:url("");
     background-size: cover;
     background-position: center;
-    height: 450px;
-    width: 150%;
+    height: 400px;
+    width: 100%;
     padding: 10px;
     margin: 10px;
     display: flex;
@@ -31,7 +31,7 @@ body, html {
 }
 /* Header */
 .header {
-    background-image: url("../../../../../Pictures/Screenshots 1/Screenshot 2024-09-28 155341.png");
+    background-image: url("background_image.jpg");
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     /* padding: 5px 5px; */
     display: flex;
@@ -98,7 +98,7 @@ body, html {
 
 /* Hero Section */
 .hero {
-    background-image: url("../../../../../Pictures/Screenshots 1/Screenshot 2024-09-29 125848.png");
+    background-image: url("BACKGROUND_IMAGE1.jpg");
     background-size: cover;
     /* background-position: center; */
     /* height: 100px; */
@@ -178,7 +178,7 @@ body, html {
 
 /* Product Section */
 .products-section {
-    background-image: url("../../../../../Pictures/Screenshots 1/Screenshot 2024-09-28 155341.png");
+    background-image: url("Background_image2.jpg");
     background-size: cover;
     padding: 60px 21px;
     border: 8px solid #ffc0cb;
@@ -222,7 +222,7 @@ h2 {
     border:3px solid #ff6384;
 }
 .about-section {
-    background-image:  url("../../../../../Pictures/Screenshots 1/Screenshot 2024-09-28 155341.png");
+    background-image:  url("Background_image2.jpg");
     background-size: cover;
     font-size: 25px;
     border: 8px solid pink;
@@ -259,7 +259,7 @@ h2 {
 }
 
 .testimonials-section {
-    background-image:  url("../../../../../Pictures/Screenshots 1/Screenshot 2024-09-28 155341.png");
+    background-image:  url("Background_image2.jpg");
     background-size: cover;
     font-size: 25px;
     padding: 60px 20px;
@@ -285,7 +285,7 @@ h2 {
 
 }
 .newsletter-section{
-    background-image: url("../../../../../Pictures/Screenshots 1/Screenshot 2024-09-28 155341.png");
+    background-image: url("Background_image2.jpg");
     background-size: cover;
     border: 8px solid pink;
     align-items: center;
