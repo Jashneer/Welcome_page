@@ -26,7 +26,7 @@ body {
     padding: 0;
     display: flex; /* Display items horizontally */
     justify-content: center; /* Center navbar items */
-    gap: 20px; /* Space between items */
+    gap: 21px; /* Space between items */
 }
 
 .navbar li {
