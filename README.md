@@ -32,4 +32,12 @@ This project is collaborateively designed web-based welcome page that offers tai
 4. Combination Skin Page Developer: Palak
    • Creates and designs the combination skin page.
 
+## Technologies Used
+• HTML: Structure and content creation.
+• CSS: Styling for a consistent and visually appealing user experience.
+• Git & Github: Version control and collaboration.
+• Visual Studio Code: Code editor for development.
+
+
+
    
