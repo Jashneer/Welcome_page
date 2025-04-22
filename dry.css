@@ -73,8 +73,8 @@ section {
 /* Product Div Styling */
 .product {
     background: linear-gradient(to right, #cc99ff, #e6ccff); /* Soft purple gradient for product cards */
-    border: 3px solid #cc66ff; /* Purple border */
-    border-radius: 15px;
+    border: 2.5px solid #cc66ff; /* Purple border */
+    border-radius: 14px;
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for cards */
@@ -100,7 +100,7 @@ section {
 /* Footer Styling (Optional) */
 footer {
     text-align: center; /* Center the footer content */
-    padding: 10px 20px;
+    padding: 13px 20px;
     background: #6600cc; /*  purple background for footer */
     color: #ffe6f2; /* Light pink text */
     font-size: 0.9rem;

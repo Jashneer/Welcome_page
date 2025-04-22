@@ -35,11 +35,11 @@ body {
 
 .navbar a {
     text-decoration: none;
-    color: #ffe6f2; /* Light pink text color for links */
+    color: #ffccd9 /* Light pink text color for links */
     font-weight: bold;
     font-size: 1rem;
     padding: 8px 12px;
-    border-radius: 5px; /* Rounded corners for links */
+    border-radius: 6px; /* Rounded corners for links */
     background: #ffb3d9; /* Soft pink button effect */
     transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth hover and click effects */
 }
@@ -97,8 +97,8 @@ section {
 }
 
 .product p {
-    color: #660033; /* Dark pink for product descriptions */
-    font-size: 1.2rem;
+    color: #660032; /* Dark pink for product descriptions */
+    font-size: 1.4rem;
     margin: 0;
 }
 .container{
