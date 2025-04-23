@@ -1,0 +1,128 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 1px;
+    padding: 1px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    font-family: Arial, sans-serif;/* Light pink gradient background */
+    color: #660033; /* Dark pink for text */
+    text-align: center; /* Align all body content to the center */
+}
+
+/* Navbar Styling */
+.navbar {
+    background: linear-gradient(to right, #ff66b2, #ff99cc); /* Pink gradient for the navbar */
+    padding: 12px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+.navbar ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 1;
+    display: flex; /* Display items horizontally */
+    justify-content: center; /* Center navbar items */
+    gap: 18px; /* Space between items */
+}
+
+.navbar li {
+    display: inline; /* Ensure items display inline */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffe6f2; /* Light pink text color for links */
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 9px 12px;
+    border-radius: 8px; /* Rounded corners for links */
+    background: #ffb3d9; /* Soft pink button effect */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth hover and click effects */
+}
+
+.navbar a:hover {
+    background-color: #ffccdd; /* Softer pink on hover */
+    transform: scale(1.1); /* Slight zoom-in effect on hover */
+}
+
+/* Header Styling */
+header {
+    text-align: center; /* Center-align the header */
+    padding: 20px 10px;
+    color: #660033; /* Dark pink text */
+    background: linear-gradient(to right, #ff99cc, #ffb3d9); /* Gradient background */
+    border-bottom: 3px solid #ff66b2; /* Border for separation */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+header a {
+    text-decoration: none;
+    color: pink;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Section Styling */
+section {
+    padding: 30px;
+    background: linear-gradient(to right, #ffcce0, #ffe6f2); /* Gradient background for the section */
+    border-radius: 15px; /* Rounded corners */
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow for depth */
+    
+
+}
+
+/* Product Div Styling */
+.product {
+    background: linear-gradient(to right, #ff99cc, #ffccdd); /* Gradient background for product cards */
+    border: 3px solid #ff66b2; /* Bright pink border */
+    border-radius: 18px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for cards */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+.product:hover {
+    transform: translateX(-10px); /* Subtle slide effect on hover */
+}
+.container{
+    border:10px #ff99cc;
+    background-size: cover;
+}
+
+.product h2 {
+    color: #ff0055; /* Bold vibrant pink for product titles */
+    margin: 0 0 10px;
+    font-size: 1.9rem;
+}
+
+.product p {
+    color: #660033; /* Dark pink for product descriptions */
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+/* Footer Styling (Optional) */
+footer {
+    text-align: center; /* Center the footer content */
+    padding: 10px 20px;
+    background: #ff66b2; /* Solid pink background for footer */
+    color: #ffe6f2; /* Light pink text */
+    font-size: 1.0rem;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1); /* Shadow at the top */
+}
+
+
+.container img {
+    width:250%;
+    max-width: 300px; /* Limit the image width */
+    margin-left: -50px; /* Shift the image to the left */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12); /* Shadow effect for the image */
+    border-radius: 8px; /* Rounded corners for the image */
+}
