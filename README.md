@@ -22,20 +22,26 @@ This project is collaborateively designed web-based welcome page that offers tai
 1. Main Page Developer: Jashneer Kaur
    • Designs and styles the main welcome page.
    • Includes navigation to other skin-type specific pages.
+   <br>
 
 2. Dry Page Developer: Kashish Chaudhary
    • Builds and styles the page for dry skin information.
+   <br>
 
-3. Oily Skin Page Developer: Khushi Verma
+4. Oily Skin Page Developer: Khushi Verma
    • Develops the layout and content for oily skin.
+   <br>
 
-4. Combination Skin Page Developer: Palak
+6. Combination Skin Page Developer: Palak
    • Creates and designs the combination skin page.
 
 ## Technologies Used
 • HTML: Structure and content creation.
+<br>
 • CSS: Styling for a consistent and visually appealing user experience.
+<br>
 • Git & Github: Version control and collaboration.
+<br>
 • Visual Studio Code: Code editor for development.
 
 
