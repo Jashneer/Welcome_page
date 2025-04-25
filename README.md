@@ -13,29 +13,41 @@ This project is collaborateively designed web-based welcome page that offers tai
 
 
 ## Features
+<br>
 • Main Welcome Page: A central page to navigate to specific skin type sections.
+<br>
 • Dry Skin Page: Offers tips, images and recommendationa for dry skin care.
+<br>
 • Oily Skin Page: Provides details and insights on managing oily skin.
+<br>
 • Consistent Designs: CSS ensures a unified and polished aesthetic across all pages.
+<br>
 
 ## Team Roles
 1. Main Page Developer: Jashneer Kaur
+   <br>
    • Designs and styles the main welcome page.
+   <br>
    • Includes navigation to other skin-type specific pages.
    <br>
 
-2. Dry Page Developer: Kashish Chaudhary
+3. Dry Page Developer: Kashish Chaudhary
+   <br>
    • Builds and styles the page for dry skin information.
    <br>
 
 4. Oily Skin Page Developer: Khushi Verma
+   <br>
    • Develops the layout and content for oily skin.
    <br>
 
 6. Combination Skin Page Developer: Palak
+   <br>
    • Creates and designs the combination skin page.
+   <br>
 
 ## Technologies Used
+<br>
 • HTML: Structure and content creation.
 <br>
 • CSS: Styling for a consistent and visually appealing user experience.
