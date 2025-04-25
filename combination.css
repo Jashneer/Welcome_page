@@ -35,7 +35,7 @@ body {
     font-weight: bolder;
     font-size: 1rem;
     padding: 9px 12px;
-    border-radius: 8px; /* Rounded corners for links */
+    border-radius: 7px; /* Rounded corners for links */
     background: #ffb3d9; /* Soft pink button effect */
     transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth hover and click effects */
 }
