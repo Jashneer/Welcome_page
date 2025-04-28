@@ -52,7 +52,7 @@ body {
 /* Header Styling */
 header {
     text-align: center; /* Center-align the header */
-    padding: 20px 10px;
+    padding: 21px 11px;
     color: #660033; /* Dark pink text */
     background: linear-gradient(to right, #f5a0ca, #f885bf); /* Gradient background */
     border-bottom: 3px solid #ff66b2; /* Border for separation */
@@ -61,7 +61,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
 }
 
 /* Section Styling */
