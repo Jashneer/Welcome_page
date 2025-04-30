@@ -42,7 +42,8 @@ body {
 
 .navbar a:hover {
     background-color: #ffccdd; /* Softer pink on hover */
-    transform: scale(1.1); /* Slight zoom-in effect on hover */
+    transform: scale(1.06); /* Slight zoom-in effect on hover */
+    will-change: transform;
 }
 
 /* Header Styling */
