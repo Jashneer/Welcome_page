@@ -31,8 +31,30 @@
         </div>
 
         <div class="container">
-          <img src="https://images.lifestyleasia.com/wp-content/uploads/sites/7/2022/01/03164015/shutterstock_1941572701-2.jpg">
+          <img src="https://www.shutterstock.com/image-photo/young-woman-zoom-circle-shows-600nw-2500095845.jpg">
         </div>
+        <div><input type="text" id="keyInput" placeholder="Type something"></div>
+
+        <div><button class="back-button" onclick="goBack()">Back to Home</button></div>
       </section>
+      <script>
+      function goBack() {
+            window.location.href = 'main.html'; // Redirect to index.html
+        }
+        document.getElementById('keyInput').addEventListener('keyup', function() {
+        alert('You just typed something!');
+    });
+
+    window.onload = function() {
+            const messageDiv = document.getElementById('message');
+            messageDiv.style.display = 'block'; // Show the message
+
+            // Set a timeout to hide or remove the message after 5 seconds (5000ms)
+            setTimeout(function() {
+                messageDiv.style.display = 'none'; // Hide the message after 5 seconds
+                console.log('Message cleared out');
+            }, 5000);
+        };
+      </script>
 </body>
 </html>
