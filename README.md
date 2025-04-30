@@ -13,7 +13,6 @@ This project is collaborateively designed web-based welcome page that offers tai
 
 
 ## Features
-<br>
 • Main Welcome Page: A central page to navigate to specific skin type sections.
 <br>
 • Dry Skin Page: Offers tips, images and recommendationa for dry skin care.
@@ -47,7 +46,6 @@ This project is collaborateively designed web-based welcome page that offers tai
    <br>
 
 ## Technologies Used
-<br>
 • HTML: Structure and content creation.
 <br>
 • CSS: Styling for a consistent and visually appealing user experience.
