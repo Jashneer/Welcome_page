@@ -48,11 +48,11 @@ body, html {
     display: inline;
     background-color: #f9adbb;
     padding: 20px;
-    border-radius: 5rem;
+    border-radius: 4.9rem;
     font-size: 20px;
     font-weight: bold;
     margin: 30px;
-    border: 8px solid pink;
+    border: 7.8px solid pink;
     justify-content: space-between;
     text-decoration: none;
     text-align:center;

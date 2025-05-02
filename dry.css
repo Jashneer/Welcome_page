@@ -17,8 +17,8 @@ body {
 
 .navbar ul {
     list-style: none; /* Remove bullet points */
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 1;
     display: flex; /* Display items horizontally */
     justify-content: center; /* Center navbar items */
     gap: 20px; /* Space between items */
@@ -82,7 +82,7 @@ section {
 }
 
 .product:hover {
-    transform: translateX(-10px); /* Subtle slide effect on hover */
+    transform: translateX(-13px); /* Subtle slide effect on hover */
 }
 
 .product h2 {

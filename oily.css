@@ -16,7 +16,7 @@ body {
 /* Navbar Styling */
 .navbar {
     background: linear-gradient(to right, #ff66b2, #ff99cc); /* Pink gradient for the navbar */
-    padding: 12px 21px;
+    padding: 13px 23px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15); /* Shadow for depth */
 }
 
@@ -119,11 +119,11 @@ div img {
 /* Footer Styling (Optional) */
 footer {
     text-align: center; /* Center the footer content */
-    padding: 10px 20px;
+    padding: 10px 18px;
     background: #ff66b2; /* Solid pink background for footer */
     color: #ffe6f2; /* Light pink text */
-    font-size: 0.9rem;
-    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1); /* Shadow at the top */
+    font-size: 1.1rem;
+    box-shadow: 0px -4px 7px rgba(0, 0, 0, 0.1); /* Shadow at the top */
 }
 
 .container img{
