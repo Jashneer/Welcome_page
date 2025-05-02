@@ -82,7 +82,7 @@ section {
 }
 
 .product:hover {
-    transform: translateX(-10px); /* Subtle slide effect on hover */
+    transform: translateX(-13px); /* Subtle slide effect on hover */
 }
 
 .product h2 {
