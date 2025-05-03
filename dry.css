@@ -114,3 +114,17 @@ footer {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect for the image */
     border-radius: 8px; /* Rounded corners for the image */
 }
+
+/* Popup Message Styling */
+.popup {
+    display: none;
+    background: #ffb3d9;
+    color: #330066;
+    padding: 12px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
