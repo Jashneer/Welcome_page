@@ -1,3 +1,8 @@
+/* Smooth Scroll Navigation */
+html {
+    scroll-behavior: smooth;
+}
+
 /* General Page Styling */
 body {
     font-family: Arial, sans-serif;
