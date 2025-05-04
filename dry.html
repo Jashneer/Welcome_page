@@ -13,22 +13,26 @@
       </header>
       
       <section>
+        <input type="text" id="searchBar" placeholder="Search products...">
         <div class="product">
+            <h2>Soothing Facial Oil</h2>
+            <p>Nourishes dry skin.</p>
+            <p>add's healhy glow.</p>
+        </div>
+        
+          <div class="product">
           <h2>Hydrating Cream and Mask</h2>
           <p>Deep hydration to keep your skin soft and supple.</p>
-        </div>
-        <div class="product">
-          <h2>Gentle Exfoliator</h2>
-          <p>Removes dead skin cells without irritation.</p>
         </div>
         <div class="product">
           <h2>Overnight Moisture Mask</h2>
           <p>Locks in moisture while you sleep for rejuvenated skin.</p>
         </div>
-        <div class="product">
-            <h2>Soothing Facial Oil</h2>
-            <p>Nourishes dry skin and adds a healthy glow.</p>
+          <div class="product">
+          <h2>Gentle Exfoliator</h2>
+          <p>Removes dead skin cells without irritation.</p>
         </div>
+        
 
         <div class="container">
           <img src="https://www.shutterstock.com/image-photo/young-woman-zoom-circle-shows-600nw-2500095845.jpg">
@@ -36,25 +40,9 @@
         <div><input type="text" id="keyInput" placeholder="Type something"></div>
 
         <div><button class="back-button" onclick="goBack()">Back to Home</button></div>
+        <button id="themeToggle">Toggle Dark Mode</button>
       </section>
-      <script>
-      function goBack() {
-            window.location.href = 'main.html'; // Redirect to index.html
-        }
-        document.getElementById('keyInput').addEventListener('keyup', function() {
-        alert('You just typed something!');
-    });
-
-    window.onload = function() {
-            const messageDiv = document.getElementById('message');
-            messageDiv.style.display = 'block'; // Show the message
-
-            // Set a timeout to hide or remove the message after 5 seconds (5000ms)
-            setTimeout(function() {
-                messageDiv.style.display = 'none'; // Hide the message after 5 seconds
-                console.log('Message cleared out');
-            }, 5000);
-        };
-      </script>
+      <div id="welcomeMessage" class="popup">Welcome to the Dry Skin Product Hub!</div>
+      <script src = "dry.js"></script>
 </body>
 </html>

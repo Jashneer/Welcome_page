@@ -1,3 +1,8 @@
+/* Smooth Scroll Navigation */
+html {
+    scroll-behavior: smooth;
+}
+
 /* General Page Styling */
 body {
     font-family: Arial, sans-serif;
@@ -11,14 +16,14 @@ body {
 /* Navbar Styling */
 .navbar {
     background: linear-gradient(to right, #cc66ff, #ff99cc); /* Purple-pink gradient for the navbar */
-    padding: 10px 20px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    padding: 12px 22px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1); /* Shadow for depth */
 }
 
 .navbar ul {
     list-style: none; /* Remove bullet points */
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 1;
     display: flex; /* Display items horizontally */
     justify-content: center; /* Center navbar items */
     gap: 20px; /* Space between items */
@@ -41,7 +46,7 @@ body {
 
 .navbar a:hover {
     background-color: #ffccdd; /* Softer pink on hover */
-    transform: scale(1.1); /* Slight zoom-in effect on hover */
+    transform: scale(1.2); /* Slight zoom-in effect on hover */
 }
 
 /* Header Styling */
@@ -82,7 +87,7 @@ section {
 }
 
 .product:hover {
-    transform: translateX(-10px); /* Subtle slide effect on hover */
+    transform: translateX(-13px); /* Subtle slide effect on hover */
 }
 
 .product h2 {
@@ -109,8 +114,31 @@ footer {
 
 .container img {
     width:250%;
-    max-width: 500px; /* Limit the image width */
+    height:250%;
+    max-width: 300px; /* Limit the image width */
+    max-height: 300px; /* Limit the image height*/
     margin-left: -50px; /* Shift the image to the left */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect for the image */
     border-radius: 8px; /* Rounded corners for the image */
 }
+
+/* Popup Message Styling */
+.popup {
+    display: none;
+    background: #ffb3d9;
+    color: #330066;
+    padding: 12px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Dark Mode Styling */
+.dark-mode {
+    background: #222;
+    color: #fff;
+}
+
