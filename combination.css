@@ -22,7 +22,7 @@ body {
     padding: 1;
     display: flex; /* Display items horizontally */
     justify-content: center; /* Center navbar items */
-    gap: 18px; /* Space between items */
+    gap: 20px; /* Space between items */
 }
 
 .navbar li {
@@ -33,7 +33,7 @@ body {
     text-decoration: none;
     color: #ffe6f2; /* Light pink text color for links */
     font-weight: bolder;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding: 9px 12px;
     border-radius: 7px; /* Rounded corners for links */
     background: #ffb3d9; /* Soft pink button effect */
