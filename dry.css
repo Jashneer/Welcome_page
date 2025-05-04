@@ -114,7 +114,9 @@ footer {
 
 .container img {
     width:250%;
-    max-width: 500px; /* Limit the image width */
+    height:250%;
+    max-width: 300px; /* Limit the image width */
+    max-height: 300px; /* Limit the image height*/
     margin-left: -50px; /* Shift the image to the left */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect for the image */
     border-radius: 8px; /* Rounded corners for the image */
