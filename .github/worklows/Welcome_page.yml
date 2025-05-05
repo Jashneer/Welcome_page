@@ -1,1 +1,22 @@
+project:
+  name: Welcome Page Design
+  overview: >
+    A collaboratively designed web-based welcome page offering tailored skin care advice.
+    Features sections for different skin types—Dry, Oily, and Combination.
+
+team:
+  - name: Jashneer Kaur
+    role: Main Page Developer
+  - name: Kashish Chaudhary
+    role: Dry Skin Page Developer
+  - name: Khushi Verma
+    role: Oily Skin Page Developer
+  - name: Palak
+    role: Combination Skin Page Developer
+
+technologies:
+  - HTML
+  - CSS
+  - Git & GitHub
+  - Visual Studio Code
 
