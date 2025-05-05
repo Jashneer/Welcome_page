@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #f2e6ff, #e6ccff); /* Light purple gradient background */
+    background: linear-gradient(to right, #ffe6f2, #ffccdd); /* Updated to pink gradient */
     color: #330066; /* Dark purple for text */
     text-align: center; /* Align all body content to the center */
 }
