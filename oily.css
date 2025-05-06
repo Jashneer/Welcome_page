@@ -6,8 +6,8 @@ body {
 /* General Page Styling */ 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 1;
     background: linear-gradient(to right, #ffe6f2, #ffccdd); /* Light pink gradient background */
     color: #660033; /* Dark pink for text */
     text-align: center; /* Align all body content to the center */
@@ -16,7 +16,7 @@ body {
 /* Navbar Styling */
 .navbar {
     background: linear-gradient(to right, #ff66b2, #ff99cc); /* Pink gradient for the navbar */
-    padding: 12px 21px;
+    padding: 13px 23px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15); /* Shadow for depth */
 }
 
@@ -41,7 +41,7 @@ body {
     padding: 8px 12px;
     border-radius: 6px; /* Rounded corners for links */
     background: #ffb3d9; /* Soft pink button effect */
-    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth hover and click effects */
+    transition: transform 0.3s ease, background-color 0.4s ease; /* Smooth hover and click effects */
 }
 
 .navbar a:hover {
@@ -52,7 +52,7 @@ body {
 /* Header Styling */
 header {
     text-align: center; /* Center-align the header */
-    padding: 20px 10px;
+    padding: 21px 11px;
     color: #660033; /* Dark pink text */
     background: linear-gradient(to right, #f5a0ca, #f885bf); /* Gradient background */
     border-bottom: 3px solid #ff66b2; /* Border for separation */
@@ -61,7 +61,11 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
+}
+
+header:hover {
+    box-shadow: 0px 6px 20px rgba(255, 102, 178, 0.4);
 }
 
 /* Section Styling */
@@ -115,11 +119,11 @@ div img {
 /* Footer Styling (Optional) */
 footer {
     text-align: center; /* Center the footer content */
-    padding: 10px 20px;
-    background: #ff66b2; /* Solid pink background for footer */
+    padding: 12px 17px;
+    background: ##ff61b0; /* Solid pink background for footer */
     color: #ffe6f2; /* Light pink text */
-    font-size: 0.9rem;
-    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1); /* Shadow at the top */
+    font-size: 1.3rem;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1); /* Shadow at the top */
 }
 
 .container img{
