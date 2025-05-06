@@ -41,7 +41,7 @@ body {
     padding: 8px 12px;
     border-radius: 6px; /* Rounded corners for links */
     background: #ffb3d9; /* Soft pink button effect */
-    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth hover and click effects */
+    transition: transform 0.3s ease, background-color 0.4s ease; /* Smooth hover and click effects */
 }
 
 .navbar a:hover {
