@@ -1,9 +1,14 @@
+/* Smooth Scroll Navigation */
+html {
+    scroll-behavior: smooth;
+}
+
 /* General Page Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #f2e6ff, #e6ccff); /* Light purple gradient background */
+    background: linear-gradient(to right, #ffe6f2, #ffccdd); /* Updated to pink gradient */
     color: #330066; /* Dark purple for text */
     text-align: center; /* Align all body content to the center */
 }
@@ -41,7 +46,7 @@ body {
 
 .navbar a:hover {
     background-color: #ffccdd; /* Softer pink on hover */
-    transform: scale(1.1); /* Slight zoom-in effect on hover */
+    transform: scale(1.2); /* Slight zoom-in effect on hover */
 }
 
 /* Header Styling */
@@ -109,8 +114,31 @@ footer {
 
 .container img {
     width:250%;
-    max-width: 500px; /* Limit the image width */
+    height:250%;
+    max-width: 300px; /* Limit the image width */
+    max-height: 300px; /* Limit the image height*/
     margin-left: -50px; /* Shift the image to the left */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect for the image */
     border-radius: 8px; /* Rounded corners for the image */
 }
+
+/* Popup Message Styling */
+.popup {
+    display: none;
+    background: #ffb3d9;
+    color: #330066;
+    padding: 12px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Dark Mode Styling */
+.dark-mode {
+    background: #222;
+    color: #fff;
+}
+

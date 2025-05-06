@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 1px;
     padding: 1px;
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    background: linear-gradient(to right, #ffe6f2, #ffccdd);
     font-family: Arial, sans-serif;/* Light pink gradient background */
     color: #660033; /* Dark pink for text */
     text-align: center; /* Align all body content to the center */
@@ -22,7 +22,7 @@ body {
     padding: 1;
     display: flex; /* Display items horizontally */
     justify-content: center; /* Center navbar items */
-    gap: 18px; /* Space between items */
+    gap: 20px; /* Space between items */
 }
 
 .navbar li {
@@ -33,7 +33,7 @@ body {
     text-decoration: none;
     color: #ffe6f2; /* Light pink text color for links */
     font-weight: bolder;
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding: 9px 12px;
     border-radius: 7px; /* Rounded corners for links */
     background: #ffb3d9; /* Soft pink button effect */
@@ -61,7 +61,7 @@ header a {
 }
 
 header h1 {
-    margin: 0;
+    margin: 0.5;
     font-size: 2.5rem;
 }
 
@@ -112,11 +112,11 @@ section {
 /* Footer Styling (Optional) */
 footer {
     text-align: center; /* Center the footer content */
-    padding: 10px 20px;
+    padding: 12px 22px;
     background: #ff66b2; /* Solid pink background for footer */
     color: #ffe6f2; /* Light pink text */
-    font-size: 1.1rem;
-    box-shadow: 0px -4px 7px rgba(0, 0, 0, 0.1); /* Shadow at the top */
+    font-size: 1.4rem;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1); /* Shadow at the top */
 }
 
 

@@ -57,3 +57,20 @@ document.getElementById('themeToggle')?.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
     document.body.classList.toggle('light-mode');
 });
+// Search Bar Filtering
+document.getElementById('searchBar')?.addEventListener('keyup', function() {
+    let filter = this.value.toLowerCase();
+    console.log("Search filter applied:", filter); // Logs the search input value
+
+    document.querySelectorAll('.product').forEach(product => {
+        let title = product.querySelector('h2').textContent.toLowerCase();
+        console.log("Checking product:", title); // Logs each product being checked
+        product.style.display = title.includes(filter) ? 'block' : 'none';
+    });
+});
+
+// Dark Mode Toggle
+document.getElementById('themeToggle')?.addEventListener('click', function() {
+    console.log("Theme toggle clicked"); // Logs the button click event
+    document.body.classList.toggle('dark-mode');
+});
