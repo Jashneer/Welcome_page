@@ -67,7 +67,7 @@ header h1 {
 
 /* Section Styling */
 section {
-    padding: 28px;
+    padding: 20px;
     background: linear-gradient(to right, #ffcce0, #ffe6f2); /* Gradient background for the section */
     border-radius: 17px; /* Rounded corners */
     margin: 25px auto;
