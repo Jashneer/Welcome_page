@@ -119,7 +119,7 @@ footer {
     max-height: 300px; /* Limit the image height*/
     margin-left: -50px; /* Shift the image to the left */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect for the image */
-    border-radius: 8px; /* Rounded corners for the image */
+    border-radius: 7px; /* Rounded corners for the image */
 }
 
 /* Popup Message Styling */
@@ -127,7 +127,7 @@ footer {
     display: none;
     background: #ffb3d9;
     color: #330066;
-    padding: 12px;
+    padding: 11px;
     position: fixed;
     top: 20px;
     right: 20px;
