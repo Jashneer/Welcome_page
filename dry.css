@@ -6,8 +6,8 @@ html {
 /* General Page Styling */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 1;
     background: linear-gradient(to right, #ffe6f2, #ffccdd); /* Updated to pink gradient */
     color: #330066; /* Dark purple for text */
     text-align: center; /* Align all body content to the center */
