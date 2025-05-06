@@ -119,11 +119,11 @@ div img {
 /* Footer Styling (Optional) */
 footer {
     text-align: center; /* Center the footer content */
-    padding: 10px 18px;
+    padding: 12px 17px;
     background: #ff66b2; /* Solid pink background for footer */
     color: #ffe6f2; /* Light pink text */
-    font-size: 1.1rem;
-    box-shadow: 0px -4px 7px rgba(0, 0, 0, 0.1); /* Shadow at the top */
+    font-size: 1.3rem;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1); /* Shadow at the top */
 }
 
 .container img{

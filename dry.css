@@ -70,7 +70,7 @@ section {
     background: linear-gradient(to right, #f2e6ff, #ffe6f2); /* Light purple-to-pink gradient background */
     border-radius: 15px; /* Rounded corners */
     margin: 22px auto;
-    width: 90%;
+    width: 92%;
     max-width: 800px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow for depth */
 }
