@@ -3,7 +3,10 @@ project:
   overview: >
     A collaboratively designed web-based welcome page offering tailored skin care advice.
     Features sections for different skin types—Dry, Oily, and Combination.
-
+    goals:
+    - Provide users with personalized skincare guidance based on their skin type.
+    - Create a visually appealing and responsive landing page.
+    - Enable team collaboration through effective version control.
 team:
   - name: Jashneer Kaur
     role: Main Page Developer
@@ -17,5 +20,6 @@ team:
 technologies:
   - HTML
   - CSS
+  - JavaScript
   - Git & GitHub
   - Visual Studio Code
